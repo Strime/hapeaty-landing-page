@@ -7,13 +7,13 @@ ios_app_country                           : fr                                  
 
 appstore_link                             :                                           # Automatically populates if not set and if iOS app ID is set. Otherwise enter manually.
 playstore_link                            :                                           # Enter Google Play Store URL.
-presskit_download_link                    : https://emilbaehr.com                                          # Enter a link to downloadable file or (e.g. public Dropbox link to a .zip file). 
+presskit_download_link                    :                                           # Enter a link to downloadable file or (e.g. public Dropbox link to a .zip file). 
                                                                                       # Or upload your press kit file to assets and set path accordingly (e.g. "assets/your_press_kit.zip").
 
 app_icon                                  : assets/app.png                            # Automatically populates if not set and if iOS app ID is set.  Otherwise enter path to icon file manually.
 app_name                                  : Hapeaty                                   # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
 app_price                                 :                                           # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
-app_description                           : Write a short tagline for your app.
+app_description                           : L'application de partage de bons petits plats entre collègue.
 
 enable_smart_app_banner                   : true                                      # Set to true to show a smart app banner at top of page on mobile devices.
 
@@ -37,11 +37,15 @@ mastodon_link                             :
 features                                  :
 
   - title                                 : Partage de repas entre collègue
-    description                           : De bons petits plats à porté de main
-    fontawesome_icon_name                 : bowl-food
+    description                           : De bons plats à porté de main
+    fontawesome_icon_name                 : cookie-bite
     
   - title                                 : Gestion des paiements
     description                           : Facilite les paiements entre collègue
+    fontawesome_icon_name                 : euro-sign
+    
+  - title                                 : Notifications
+    description                           : Ne loupe plus un bon repas
     fontawesome_icon_name                 : mobile
 
   - title                                 : # New Feature Title
